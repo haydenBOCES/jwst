@@ -1,0 +1,111 @@
+/* CSS Document 
+
+dark blue: #1A3873
+off brown: #813B2A
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* header */
+
+header {
+	background-color: #1A3873;
+}
+
+header img {
+	display: inline;
+	width: 12.5%;
+	margin: 1%;
+}
+
+nav li {
+	display: inline;
+	font-size: 2em;
+	margin: 0 .5%; 
+}
+
+nav a {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* main */
+
+main {
+	background-color: #813B2A;
+	padding: 1%;
+}
+
+main img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+main h1 {
+	font-size: 2em;
+	text-align: center;
+	color: antiquewhite;
+}
+
+main p {
+	color: antiquewhite;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1%;
+}
+
+table {
+	display: block;
+	margin: 0 40%;
+}
+
+tr {
+	display: block;
+}
+
+label {
+	display: block;
+	font-size: 1.25em;
+	color: antiquewhite;
+}
+
+#submit, #reset {
+	font-size: 1.15em;
+	padding: 5%;
+	display: inline;
+	border: 1.5px solid black;
+	border-radius: 10px;
+}
+
+/* footer */
+
+footer {
+	background-color: #1A3873;
+	padding: .5%;
+}
+
+footer nav {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	color: antiquewhite;
+	padding: .25%;
+}
+
+footer a {
+	color: antiquewhite;
+}
